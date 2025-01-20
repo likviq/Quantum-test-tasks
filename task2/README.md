@@ -51,11 +51,11 @@ python train.py --data_path path_to_training_data.csv --target target_column --f
 
 #### Parameters:
 
-- --data_path: Path to the training data CSV file.
-- --target: The name of the column you want to predict.
-- --features: List of feature columns to be used for training.
-- --cv_column: The column used for cross-validation (folds).
-- --model_output_path: The directory where the trained model will be saved.
+- **--data_path**: Path to the training data CSV file.
+- **--target**: The name of the column you want to predict.
+- **--features**: List of feature columns to be used for training.
+- **--cv_column**: The column used for cross-validation (folds).
+- **--model_output_path**: The directory where the trained model will be saved.
 
 
 ## Running Inference (Predictions)
@@ -69,12 +69,12 @@ python predict.py --model_path path_to_trained_model --input_csv path_to_input_d
 
 #### Parameters:
 
-- --model_path: Path to the saved H2O model.
-- --input_csv: Path to the input CSV file with new data for predictions.
-- --output_csv: Path to save the prediction results as a CSV file.
+- **--model_path**: Path to the saved H2O model.
+- **--input_csv**: Path to the input CSV file with new data for predictions.
+- **--output_csv**: Path to save the prediction results as a CSV file.
 
 # Exploratory Data Analysis (EDA)
-The eda.ipynb file contains the exploratory data analysis (EDA) steps performed on the dataset. Key observations include:
+The `eda.ipynb` file contains the exploratory data analysis (EDA) steps performed on the dataset. Key observations include:
 
 - A notable correlation was identified between the feature column 6 and the target variable.
 - Visualizations, correlation matrices, and statistical analysis were performed to understand relationships between features.
@@ -85,16 +85,19 @@ The insights from the EDA were instrumental in selecting relevant features and p
 # Project Structure
 
 ```bash
-.
+task2/
+│
 ├── data/
 │   ├── models/                    # h2o models weights
 │   ├── train.csv                  # Training data
 │   ├── hidden_test.csv            # Test feature data
 │   └── hidden_test_predicted.csv  # Test data with predicted h2o and base y
+│
 ├── src/
 │   ├── data_preprocessor.py       # Data preprocessing module
 │   ├── inference.py               # Inference (prediction) module
 │   └── model_trainer.py           # Model training module
+│
 ├── config.py                      # Default configuration values
 ├── eda.ipynb                      # Exploratory data analysis of data
 ├── predict.py                     # Inference script for predictions
