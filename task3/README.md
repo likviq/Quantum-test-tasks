@@ -53,8 +53,8 @@ python test_digit_classifier.py
 
 To add a new model:
 
-1. Create a new class in the models/ folder.
+1. Create a new class in the `models/` folder.
 
-2. Implement the DigitClassificationInterface (the predict method).
+2. Implement the `DigitClassificationInterface` (the predict method).
 
-3. Add a new value to ModelType in the digit_classifier.py file.
+3. Add a new value to ModelType in the `digit_classifier.py` file.

@@ -1,6 +1,7 @@
+import pandas as pd
+
 import h2o
 from h2o.frame import H2OFrame
-import pandas as pd
 
 class H2OModelInference:
     """
