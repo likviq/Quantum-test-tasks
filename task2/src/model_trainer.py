@@ -93,9 +93,9 @@ class H2OModelTrainer:
             str: The path where the model was saved.
         """
         model_path = h2o.save_model(
-            model=self.final_model, 
-            path="task2/data/models", 
-            force=True
+            model=self.final_model,
+            path="data/models",
+            force=True,
         )
         return model_path
 
