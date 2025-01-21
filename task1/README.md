@@ -4,6 +4,13 @@ This Python script calculates the number of islands in a given 2D map. An island
 
 ## To Run:
 
+### 1. Clone the repository:
+```bash
+git clone https://github.com/likviq/Quantum-test-tasks
+cd Quantum-test-tasks/task1
+```
+
+### 2. Run script
 ```bash
 python main.py
 ```
