@@ -9,17 +9,23 @@ This project provides model training using H2O and validation for predictions. I
 - **train.py**: Uses the dataset for training a model. It includes data preprocessing (normalization, anomaly removal) and model training using the H2O library.
 - **predict.py**: Uses a saved model to make predictions on new data.
 
-## Dependencies
+## Installation
+
+### 1. Clone the repository:
+```bash
+git clone https://github.com/likviq/Quantum-test-tasks
+cd Quantum-test-tasks/task2
+```
 
 Before running the project, you need to set up a virtual environment and install the dependencies from the `requirements.txt` file.
 
-### 1. Create a virtual environment:
+### 2. Create a virtual environment:
 
 ```bash
 python -m venv venv
 ```
 
-### 2. Activate the virtual environment:
+### 3. Activate the virtual environment:
 - On Windows:
 
 ```bash
@@ -31,7 +37,7 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-### 3. Install the dependencies:
+### 4. Install the dependencies:
 ```bash
 pip install -r requirements.txt
 ```

@@ -32,8 +32,8 @@ task3/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/task3.git
-cd task3
+git clone https://github.com/likviq/Quantum-test-tasks
+cd Quantum-test-tasks/task3
 ```
 
 2. Install the dependencies:
